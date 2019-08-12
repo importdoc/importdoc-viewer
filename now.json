@@ -1,0 +1,11 @@
+{
+	  "scope": "importdoc",
+	  "alias": "importdoc.now.sh",
+	  "version": 2,
+	  "routes": [
+	    {
+	      "src": "/([^/]+)",
+	      "dest": "/api?id=$1"
+	    }
+	  ]
+}
